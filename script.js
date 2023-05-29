@@ -10,7 +10,7 @@
 $(document).ready(()=>{
     console.log("altura da tela: ",$(window).height(), "\nLargura da tela: ",$(window).width(),"\nAltura do botao: ",$("#b").height(),"\nLargura do botao: ",$("#b").width())
     $('.botao2').mouseenter(()=>{
-        var changeTop = (Math.random() * (Math.floor(Math.random() * $(window).height()))-500);
+        var changeTop = (Math.random() * (Math.floor(Math.random() * $(window).height()))-200);
         var changeLeft = (Math.random() * (Math.floor(Math.random() * $(window).width()))-200);
         console.log("top",changeTop);
         console.log("left",changeLeft);
